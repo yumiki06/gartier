@@ -47,7 +47,10 @@ li {
   padding-right: 50px;
 }
 
+.contents {
+  width: 100%;
   background-color: skyblue;
+  margin: 0 auto;
 }
 
 footer {
