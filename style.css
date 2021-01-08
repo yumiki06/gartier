@@ -28,7 +28,25 @@ header {
   font-family: 'Caveat', cursive;
 }
 
+.navbar {
+  height: 50px;
   width: 960px;
+  background-color: violet;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding-right: 50px;
+}
+
   background-color: skyblue;
 }
 
