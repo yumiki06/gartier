@@ -1,5 +1,5 @@
 body {
-  background-color: #f0f0f0;
+  background-color: #fff;
   font-size: 14px;
   color: #333;
   margin: 0 auto;
@@ -11,14 +11,12 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 header {
-  background-color: pink;
   height: 150px;
 }
 
 .heading {
   height: 100px;
   width: 960px;
-  background-color: limegreen;
   margin: 0 auto;
 }
 
@@ -31,7 +29,6 @@ header {
 .navbar {
   height: 50px;
   width: 960px;
-  background-color: violet;
   margin: 0 auto;
   padding: 20px 0;
 }
