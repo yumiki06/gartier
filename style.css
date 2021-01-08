@@ -4,6 +4,7 @@ body {
   color: #333;
   margin: 0 auto;
 }
+
 h1,h2,h3,h4,h5,h6,p {
   padding: 10px 0;
   margin: 0;
@@ -14,8 +15,19 @@ header {
   height: 150px;
 }
 
-.contents {
-  height: 400px;
+.heading {
+  height: 100px;
+  width: 960px;
+  background-color: limegreen;
+  margin: 0 auto;
+}
+
+.title {
+  padding-top: 30px;
+  font-size: 50px;
+  font-family: 'Caveat', cursive;
+}
+
   width: 960px;
   background-color: skyblue;
 }
