@@ -54,6 +54,14 @@ li {
 }
 
 footer {
-  background-color: pink;
-  height: 50px;
+  background-color: #000;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom{
+  margin: 15px auto;
+  color: #f0f0f0;
 }
