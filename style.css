@@ -67,8 +67,12 @@ ul {
   padding-right: 50px;
 }
 
-.slides{
+.contents {
   margin: 0 auto;
+}
+
+.slides {
+  display: flex;
 }
 
 ul.slides li {
@@ -81,6 +85,7 @@ ul.slides li {
 ul.slides li img {
   width: 800px;
   height: 500px;
+  
 }
 
 footer {
