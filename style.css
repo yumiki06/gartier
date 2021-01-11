@@ -1,9 +1,6 @@
-html{
+html,body {
   height: 100%;
   width: 100%;
-}
-
-body {
   background-color: #fff;
   font-size: 14px;
   color: #333;
