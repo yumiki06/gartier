@@ -16,6 +16,23 @@ header {
   height: 130px;
   margin: 0 240px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: silver;
+}
+
+a:active {
+  color: silver;
+  ;
+}
+
+.title a{
+  color: black;
 }
 
 .heading {
