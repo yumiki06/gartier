@@ -1,3 +1,8 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
 body {
   background-color: #fff;
   font-size: 14px;
@@ -39,26 +44,39 @@ ul {
   list-style: none;
 }
 
-li {
+.navbar ul li {
   float: left;
   padding-right: 50px;
 }
 
-.contents {
-  width: 100%;
-  background-color: skyblue;
+.slides{
   margin: 0 auto;
+}
+
+ul.slides li {
+	display: none;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul.slides li img {
+  width: 800px;
+  height: 500px;
 }
 
 footer {
   background-color: #000;
-  height: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
 }
 
 .bottom{
   margin: 15px auto;
   color: #f0f0f0;
+  display: flex;
+}
+
+.bottom li{
+  padding-right: 30px;
 }
