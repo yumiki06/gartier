@@ -1,4 +1,4 @@
-html,body {
+body {
   height: 100%;
   width: 100%;
   background-color: #fff;
@@ -8,12 +8,12 @@ html,body {
 }
 
 h1,h2,h3,h4,h5,h6,p {
-  padding: 10px 0;
+  padding: 0;
   margin: 0;
 }
 
 header {
-  height: 130px;
+  height: 15%;
   margin: 0 240px;
 }
 
@@ -36,13 +36,12 @@ a:active {
 }
 
 .heading {
-  height: 100px;
   width: 960px;
   margin: 0 auto;
 }
 
 .title {
-  padding-top: 20px;
+  margin-top: 5px;
   font-size: 50px;
   font-family: 'Vollkorn', serif;
 }
@@ -50,7 +49,6 @@ a:active {
 .navbar {
   width: 960px;
   margin: 0 auto;
-  padding-bottom: 0;
 }
 
 ul {
@@ -62,40 +60,43 @@ ul {
 .navbar ul {
   height: 20px;
 }
+
 .navbar ul li {
   float: left;
   padding-right: 50px;
 }
 
 .contents {
-  margin: 0 auto;
+  height: 80%;
 }
 
 .slides {
-  display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 ul.slides li {
 	display: none;
   list-style: none;
-  margin: 0 auto;
   padding: 0;
 }
 
 ul.slides li img {
-  width: 800px;
-  height: 500px;
-  
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
 }
 
 footer {
   background-color: #000;
   margin: 0 auto;
   display: flex;
+  height: 5%;
 }
 
-.bottom{
-  margin: 15px auto;
+.bottom {
+  margin: 10px auto;
   color: #f0f0f0;
   display: flex;
 }
