@@ -73,18 +73,18 @@ ul {
 .slides {
   height: 100%;
   width: 100%;
-  position:relative;
+  position: relative;
 }
 
 .slides img {
-  position:absolute;
+  position: absolute;
   top: 51%;
   left: 50%;
   transform : translate(-50%,-51%);
   padding: 0;
-	opacity:0;
-	transition:all 1s ease-in-out;
-	height:100%;
+	opacity: 0;
+	transition: all 1s ease-in-out;
+	height: 100%;
 }
 
 footer {
@@ -99,6 +99,6 @@ footer {
   display: flex;
 }
 
-.bottom li{
+.bottom li {
   padding-right: 30px;
 }
