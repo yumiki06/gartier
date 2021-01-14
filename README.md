@@ -4,12 +4,13 @@
 ## What
 - 架空時計ブランドのLPです。
 ## App URL
-https://
+https://gartier.herokuapp.com/
 ## Development Environment
 - HTML
 - CSS
 - JavaScript
 - Visual Studio Code
+- Heroku
 - macOS
 ## Author
 - [GitHub](https://github.com/yumiki06/)
